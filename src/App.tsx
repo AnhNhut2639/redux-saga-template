@@ -2,10 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+import { UserList } from 'features/users/User';
 
 function App() {
   return (
     <div className="App">
+      <UserList />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
